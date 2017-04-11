@@ -8,8 +8,7 @@ public class DefaultTimeSrc implements TimeSource {
 
 	@Override
 	public long currentTimeMillis() {
-		// TODO Auto-generated method stub
-		return 0;
+		return System.currentTimeMillis();
 	}
 
 }
